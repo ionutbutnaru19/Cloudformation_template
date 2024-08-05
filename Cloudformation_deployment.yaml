@@ -1,3 +1,6 @@
+#Please make sure to have a created a key pair called "deploykey" for being able to access the webservers in the VPC.
+
+
 Resources:
   WebAppVPC:
     Type: 'AWS::EC2::VPC'
